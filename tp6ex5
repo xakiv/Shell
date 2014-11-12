@@ -7,3 +7,5 @@ do
   if [ cmp -eq $#]
   then
     echo \. Il y a $# arguments
+  fi
+done
