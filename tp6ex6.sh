@@ -3,9 +3,10 @@ if [ $1 -eq 1 -o $1 -eq 0 ]
 then
 	res=1
 else
-	for $cpt in seq $1
+	pouet=$(( $1 - 1 ))
+	for cpt in seq $1
 	do
-		res=$(( $1 * $cpt))
+		res=$(( $cpt * $pouet ))
 	done
 fi
 echo $res
