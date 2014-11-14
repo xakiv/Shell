@@ -1,3 +1,4 @@
+#! /bin/sh
 echo Liste des commandes dispo :
 echo 1 - Date
 echo 2 - Liste des connectés
